@@ -1,0 +1,158 @@
+.order-detail-page {
+    padding: 0 2%;
+    width: 100%;
+
+    .card-info {
+        box-shadow: 2px 3px 5px #d5d5d5;
+        padding: 30px;
+        border: 1px solid #cbcbcb;
+
+        .ant-card-head {
+            border-bottom: none;
+        }
+
+        .badge-status {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .btn-status {
+            height: 36px;
+            width: 140px;
+            border-radius: 30px;
+            border: none;
+            font-weight: 600;
+            color: #fff;
+            font-size: 14px;
+        }
+
+        .btn-warning {
+            background-color: rgb(245 158 11);
+        }
+
+        .btn-success {
+            background-color: rgba(var(--color-accent-500));
+        }
+
+        .btn-cancel {
+            background-color: #8c8c8c;
+        }
+
+        .btn-load {
+            width: 170px;
+            background-color: #4A55A2;
+        }
+
+        .list-card-children {
+            margin-bottom: 70px;
+            margin-top: 40px;
+
+            .card-children {
+                padding: 5px 0;
+                background-color: #ededed;
+                box-shadow: 2px 3px 5px #bdbdbd;
+
+                .ant-card-head {
+                    min-height: 40px;
+                    font-size: 14px;
+                }
+
+                .ant-card-body {
+                    padding: 0 24px 10px 24px;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .item-info {
+            display: flex;
+            margin: 20px 0;
+            justify-content: space-between;
+
+            p {
+                margin: 0;
+            }
+
+            .title {
+                font-weight: 500;
+                color: #2c2c2c;
+            }
+
+        }
+
+        .ant-steps .ant-steps-item-process .ant-steps-item-icon {
+            background-color: rgba(var(--color-accent-500));
+            border: 1px solid rgba(var(--color-accent-500));
+        }
+
+        .ant-steps .ant-steps-item-finish .ant-steps-item-icon>.ant-steps-icon {
+            color: rgba(var(--color-accent-700));
+        }
+
+        .ant-steps .ant-steps-item-finish .ant-steps-item-icon {
+            background-color: rgba(var(--color-accent-200));
+        }
+
+        .ant-steps .ant-steps-item-finish>.ant-steps-item-container>.ant-steps-item-tail::after {
+            background-color: rgba(var(--color-accent-500));
+        }
+
+        .ant-table {
+            padding: 40px;
+
+            img {
+                width: 50px;
+                height: auto;
+            }
+
+            .ant-table-cell {
+                padding: 5px;
+                text-align: center;
+            }
+        }
+    }
+
+    .title-id {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .change-status {
+
+        display: flex;
+        justify-content: space-between;
+
+        .ant-select-selector {
+            height: 42px;
+            padding: 4px 18px;
+
+            &:hover {
+                border-color: rgba(var(--color-accent-600)) !important;
+            }
+        }
+
+        .btn-change {
+            height: 42px;
+            background-color: rgba(var(--color-accent-600));
+            color: #fff;
+            font-weight: 600;
+            font-size: 16px;
+            border: none !important;
+
+            &:hover {
+                background-color: rgba(var(--color-accent-500));
+
+            }
+        }
+    }
+}
+
+.action-show {
+    border: none;
+    font-size: 20px;
+
+    &:hover {
+        color: rgba(var(--color-accent-600)) !important;
+    }
+}

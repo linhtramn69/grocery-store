@@ -1,0 +1,23 @@
+.wrapper {
+    .ant-layout-header {
+        min-height: 10vh !important;
+        padding: 0.4rem 2rem !important;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .ant-layout-sider {
+        min-width: 250px !important;
+        background-color: transparent !important;
+
+    }
+
+    .content {
+        padding: 40px;
+    }
+
+    .content-no-sidebar {
+        padding: 60px;
+    }
+}

@@ -1,0 +1,22 @@
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    width: 250px;
+
+    .ant-menu {
+        padding: 20px 0;
+        height: 100%;
+    }
+
+    .ant-menu-item,
+    .ant-menu-submenu-title {
+        height: 44px !important;
+        font-weight: 600 !important;
+
+    }
+
+    // .ant-menu-item-selected {
+    //     background-color: rgba(var(--color-accent-200)) !important;
+    //     color: #000 !important;
+    // }
+}
