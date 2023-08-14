@@ -1,0 +1,34 @@
+.form-input-search {
+    width: 100%;
+    position: relative;
+
+    input {
+        padding: 5px 15px;
+        height: 44px;
+        font-size: 14px;
+        width: 90%;
+        border-radius: 5px;
+        border: none;
+        margin: none;
+        box-shadow: 1px 2px 3px 1px #c0c0c0;
+        border-color: rgba(var(--color-accent));
+    }
+
+    button {
+        position: absolute;
+        right: 12%;
+        top: 30%;
+        border: none;
+        background-color: transparent;
+        font-size: 18px;
+        cursor: pointer;
+
+        &:hover {
+            color: rgba(var(--color-accent), var(--tw-bg-opacity));
+        }
+    }
+}
+
+input[type="text"] {
+    outline: 1px solid rgba(var(--color-accent), var(--tw-bg-opacity));
+}

@@ -1,0 +1,171 @@
+.form-add-product {
+    .title-col-left {
+        margin-top: 20px;
+
+        .title,
+        .text {
+            font-size: 15px;
+            color: #616161;
+        }
+
+        .title {
+            font-weight: 600;
+        }
+    }
+
+    .card-col-right {
+        padding: 10px;
+        box-shadow: 2px 3px 5px #d8d8d8;
+
+        :where(.css-dev-only-do-not-override-12upa3x).ant-upload-wrapper .ant-upload-drag {
+            border: 2px dashed rgba(var(--color-accent));
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+
+            label {
+                font-weight: 600;
+                font-size: 14px;
+                color: #616161;
+            }
+
+            input,
+            textarea {
+                display: block;
+                margin-top: 12px;
+                width: 100%;
+                height: 40px;
+                border-radius: 4px;
+                padding: 0 10px;
+                border: 0.5px solid #d9d9d9;
+
+                &:focus {
+                    outline: 0.5px solid rgba(var(--color-accent));
+                    border: none;
+                }
+            }
+
+            .radio-group {
+                display: block;
+                margin-top: 12px;
+
+                :where(.css-dev-only-do-not-override-12upa3x).ant-radio-wrapper .ant-radio-checked .ant-radio-inner {
+                    border-color: rgba(var(--color-accent));
+                    background-color: rgba(var(--color-accent));
+                }
+            }
+
+            textarea {
+                height: 80px;
+                padding-top: 10px;
+            }
+
+            .ant-select-selector {
+                margin-top: 12px;
+
+                &:focus {
+                    outline: 0.5px solid rgba(var(--color-accent));
+
+                }
+
+                &:hover {
+                    border-color: none;
+                }
+
+                .ant-select-selection-search {
+                    input {
+                        outline: none;
+                    }
+
+
+                }
+            }
+
+            .ant-select-focused:where(.css-dev-only-do-not-override-12upa3x).ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer) .ant-select-selector {
+                border-color: rgba(var(--color-accent));
+            }
+
+            :where(.css-dev-only-do-not-override-12upa3x).ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer):hover .ant-select-selector {
+                border-color: #d9d9d9;
+            }
+
+            :where(.css-dev-only-do-not-override-12upa3x).ant-select-multiple .ant-select-selection-item {
+                border-radius: 30px;
+                background-color: rgba(var(--color-accent-400));
+                color: #fff;
+            }
+
+            :where(.css-dev-only-do-not-override-12upa3x).ant-select-multiple .ant-select-selection-item-remove {
+                color: #fff;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .list-card-img {
+        margin-top: 20px;
+
+        .card-img {
+            width: 100px;
+            border: 1px solid #d8d8d8;
+            border-radius: 5px;
+
+            .ant-card-body {
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            img {
+                width: 60%;
+            }
+        }
+
+    }
+
+    :where(.css-dev-only-do-not-override-12upa3x).ant-divider-horizontal {
+        margin: 36px 0;
+    }
+
+    .btn-group {
+        display: flex;
+        justify-content: end;
+        margin-right: 50px;
+
+        .btn-back,
+        .btn-submit {
+            padding: 12px 20px;
+            font-size: 15px;
+            border-radius: 4px;
+            letter-spacing: 0.4px;
+            cursor: pointer;
+        }
+
+        .btn-back {
+            border: 1px solid #a4a4a4;
+            color: #616161;
+
+            &:hover {
+                background-color: rgba(var(--color-accent));
+                color: #fff;
+                border: 1px solid transparent;
+
+            }
+        }
+
+        .btn-submit {
+            border: 1px solid transparent;
+            color: #fff;
+            background-color: rgba(var(--color-accent));
+
+            &:hover {
+                background-color: rgba(var(--color-accent-600));
+
+            }
+        }
+    }
+
+
+}
